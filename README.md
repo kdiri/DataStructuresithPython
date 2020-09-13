@@ -57,3 +57,34 @@ The example code blocks from the book [Hands-On Data Structures and Algorithms w
 |s.clear()|	Removes all elements from the set, s.|
 |s.difference_update(t)|	Removes those elements from the s set that are also in the other set, t.|
 |s.discard(item)|	Removes the item from the set, s.|
+|s.intersection_update(t)| Remove the items from the set, s, which are not in the intersection of the sets, s and t.|
+|s.pop()|Returns an arbitrary item from the set, s, and it removes it from the s set.|
+|s.remove(item)|Deletes the item from the s set.|
+|s.update(t)|Appends all of the items in an iterable object, t, to the s set.|
+|s.symetric_difference_update(t)|Deletes all of the elements from the s set that are not in the symmetric difference of the sets, s and t.|
+
+
+## Collections
+
+|Datatype or operation|Description|
+| --------------------|:---------:|
+|namedtuple()| Creates tuple subclasses with named fields.| 
+|deque| Lists with fast appends and pops either end.| 
+|ChainMap| Dictionary-like class to create a single view of multiple mappings.| 
+|Counter| Dictionary subclass for counting hashable objects.|  
+|OrderedDict| Dictionary subclass that remembers the entry order.|
+|defaultdict| Dictionary subclass that calls a function to supply missing values.|
+|UserDict UserList UserString| These three data types are simply wrappers for their underlying base classes. Their use has largely been supplanted by the ability to subclass their respective base classes directly. Can be used to access the underlying object as an attribute.| 
+
+
+## Complexity Measure
+
+|Complexity class| Name| Example operations|
+| ---------------|:---:|----------------: |
+|O(1)| Constant| append, get item, set item.|
+|O(logn)| Logarithmic| Finding an element in a sorted array.|
+|O(n)| Linear| copy, insert, delete, iteration.|
+|nLogn| Linear-logarithmic| Sort a list, merge-sort.|
+|n2| Quadratic| Find the shortest path between two nodes in a graph. Nested loops.|
+|n3| Cubic| Matrix multiplication.|
+|2^n| Exponential| Towers of Hanoi problem, backtracking.|

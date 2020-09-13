@@ -8,6 +8,7 @@ authors = ["Kemal Diri <kemaldiri@gmail.com>"]
 python = "^3.7"
 black = "^20.8b1"
 ipykernel = "^5.3.4"
+matplotlib = "^3.3.1"
 
 [tool.poetry.dev-dependencies]
 
