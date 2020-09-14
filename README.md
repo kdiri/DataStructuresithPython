@@ -85,6 +85,6 @@ The example code blocks from the book [Hands-On Data Structures and Algorithms w
 |O(logn)| Logarithmic| Finding an element in a sorted array.|
 |O(n)| Linear| copy, insert, delete, iteration.|
 |nLogn| Linear-logarithmic| Sort a list, merge-sort.|
-|n2| Quadratic| Find the shortest path between two nodes in a graph. Nested loops.|
-|n3| Cubic| Matrix multiplication.|
+|n^2| Quadratic| Find the shortest path between two nodes in a graph. Nested loops.|
+|n^3| Cubic| Matrix multiplication.|
 |2^n| Exponential| Towers of Hanoi problem, backtracking.|
